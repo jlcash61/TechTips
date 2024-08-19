@@ -1,0 +1,122 @@
+{
+    "title": "DSC Security System Programming Cheat Sheet",
+    "sections": [
+        {
+            "title": "Entering Programming Mode",
+            "steps": [
+                "Press [*] + [8] + [Installer Code]",
+                "Default Installer Code: 5555 or 5010"
+            ]
+        },
+        {
+            "title": "Exiting Programming Mode",
+            "steps": [
+                "Press [#]",
+                "Press [#] again to return to the main screen."
+            ]
+        },
+        {
+            "title": "Zone Programming",
+            "steps": [
+                "Enter Programming Mode: [*] + [8] + [Installer Code]",
+                "Go to Section: [001]",
+                "Enter Zone Number: [01] (for Zone 1) up to [32] (for Zone 32)",
+                "Enter Zone Definition (3-digit code, e.g., 001 for Delay 1):",
+                "000: Null Zone",
+                "001: Delay 1",
+                "002: Delay 2",
+                "003: Instant",
+                "004: Interior Stay/Away",
+                "005: Interior Stay",
+                "006: Interior Night",
+                "007: Delay Stay/Away",
+                "008: 24hr Audible",
+                "009: 24hr Silent",
+                "010: 24hr Auxiliary",
+                "Exit Section: Press [*]",
+                "Exit Programming Mode: Press [#] twice."
+            ]
+        },
+        {
+            "title": "Changing Installer Code",
+            "steps": [
+                "Enter Programming Mode: [*] + [8] + [Installer Code]",
+                "Go to Section: [007]",
+                "Enter New Installer Code (4 digits): e.g., 1234",
+                "Confirm by Exiting: Press [#] twice."
+            ]
+        },
+        {
+            "title": "Programming User Codes",
+            "steps": [
+                "Enter Programming Mode: [*] + [5] + [Master Code]",
+                "Default Master Code: 1234",
+                "Select User Slot: [01] to [32]",
+                "Enter New Code: (4 digits)",
+                "Exit Programming Mode: Press [#] twice."
+            ]
+        },
+        {
+            "title": "Setting Up Time & Date",
+            "steps": [
+                "Press [*] + [6] + [Master Code]",
+                "Enter Time: [HH] + [MM]",
+                "Enter Date: [MM] + [DD] + [YY]",
+                "Exit: Press [#]"
+            ]
+        },
+        {
+            "title": "Enable/Disable Beeps",
+            "steps": [
+                "Press [*] + [6] + [Master Code]",
+                "Press [*] until you reach BEEP CONTROL",
+                "Press [1] to enable/disable"
+            ]
+        },
+        {
+            "title": "Resetting Factory Defaults",
+            "steps": [
+                "Enter Programming Mode: [*] + [8] + [Installer Code]",
+                "Enter Section: [999]",
+                "Confirm Reset: Press [*]",
+                "Exit Programming Mode: Press [#] twice."
+            ]
+        },
+        {
+            "title": "Viewing Trouble Conditions",
+            "steps": [
+                "Press [*] + [2]",
+                "Refer to Trouble Code:",
+                "1: Service Required (Press 1 again for details)",
+                "2: AC Power Trouble",
+                "3: Telephone Line Trouble",
+                "4: Failure to Communicate",
+                "5: Zone Fault",
+                "6: Zone Tamper",
+                "7: Low Battery",
+                "8: Loss of Time"
+            ]
+        },
+        {
+            "title": "Quick Arm",
+            "steps": [
+                "Press [*] + [0] (with Quick Arm enabled)"
+            ]
+        },
+        {
+            "title": "Change Auto Arm Time",
+            "steps": [
+                "Enter Programming Mode: [*] + [6] + [Master Code]",
+                "Select Auto-Arm Time: [HHMM] (24-hour format)",
+                "Exit: Press [#] twice."
+            ]
+        },
+        {
+            "title": "Viewing Event Buffer",
+            "steps": [
+                "Press [*] + [6] + [Master Code]",
+                "Press [*] to scroll through events."
+            ]
+        }
+    ]
+}

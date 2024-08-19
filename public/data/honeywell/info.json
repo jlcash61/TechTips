@@ -1,0 +1,152 @@
+{
+    "title": "Vista 20 - 250 Security System Programming Cheat Sheet",
+    "sections": [
+        {
+            "title": "Entering Programming Mode",
+            "steps": [
+                "Press [Installer Code] + [8] + [00]",
+                "Default Installer Code: 4112"
+            ]
+        },
+        {
+            "title": "Exiting Programming Mode",
+            "steps": [
+                "Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Zone Programming",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Enter Zone Programming:",
+                "Vista 20: [*] + [56] for zone programming.",
+                "Vista 128/250: Use [*] + [56] or [*] + [58] for RF zones.",
+                "Enter Zone Number: [01] to [250] (depending on the model).",
+                "Enter Zone Type:",
+                "00: Not Used",
+                "01: Entry/Exit 1",
+                "02: Entry/Exit 2",
+                "03: Perimeter",
+                "04: Interior Follower",
+                "05: Trouble by Day/Alarm by Night",
+                "06: 24-Hour Silent",
+                "07: 24-Hour Audible",
+                "08: 24-Hour Auxiliary",
+                "09: Fire",
+                "10: Interior with Delay",
+                "Partition Assignment:",
+                "Vista 20: Default Partition 1.",
+                "Vista 128/250: Specify partition (1–8).",
+                "Exit Zone Programming: Press [*] + [99]."
+            ]
+        },
+        {
+            "title": "Changing Installer Code",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Go to Field: *20",
+                "Enter New Installer Code: [4-digit code]",
+                "Exit Programming Mode: Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Programming User Codes",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [02]",
+                "Enter User Slot:",
+                "Vista 20: Slots 03–49",
+                "Vista 128: Slots 03–150",
+                "Vista 250: Slots 03–250",
+                "Enter New Code: [4-digit code]",
+                "Assign Partition: [1] to [8]",
+                "Exit Programming Mode: Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Setting Date and Time",
+            "steps": [
+                "Press [#] + [63]",
+                "Enter Date: [MMDDYY]",
+                "Enter Time: [HHMM] (24-hour format)",
+                "Exit: Press [*]"
+            ]
+        },
+        {
+            "title": "Enabling/Disabling Quick Arm",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Go to Field: *21",
+                "Enter: [0] for disable, [1] for enable",
+                "Exit Programming Mode: Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Setting Auto Stay Arm",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Go to Field: *84",
+                "Enter: [0] for disable, [1] for enable",
+                "Exit Programming Mode: Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Configuring Communicator",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Go to Field: *41 (Primary Phone Number)",
+                "Enter: Phone number followed by *",
+                "Go to Field: *42 (Secondary Phone Number)",
+                "Enter: Phone number followed by *",
+                "Go to Field: *43 (Primary Account Number)",
+                "Enter: 4-digit account number",
+                "Exit Programming Mode: Press [*] + [99]"
+            ]
+        },
+        
+        {
+            "title": "Viewing Event Log",
+            "steps": [
+                "Press [*] + [99]",
+                "Press [#] + [60]",
+                "Use [3] and [6] to scroll through events."
+            ]
+        },
+        {
+            "title": "Resetting to Factory Defaults",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [8] + [00]",
+                "Enter *97",
+                "Confirm Reset: Press [*] + [99]"
+            ]
+        },
+        {
+            "title": "Viewing System Status",
+            "steps": [
+                "Press [*] + [0]",
+                "Use [1] and [3] to scroll through statuses."
+            ]
+        },
+        {
+            "title": "Trouble Conditions",
+            "steps": [
+                "Press [*] + [2]",
+                "Common Codes:",
+                "1: AC Loss",
+                "2: Low Battery",
+                "3: Loss of Supervision",
+                "4: Failure to Communicate",
+                "5: Zone Fault",
+                "6: Tamper Condition",
+                "7: RF Jam"
+            ]
+        },
+        {
+            "title": "Bypassing Zones",
+            "steps": [
+                "Press [*] + [6]",
+                "Enter Zone Number to bypass",
+                "Exit: Press [*]"
+            ]
+        }
+    ]
+}

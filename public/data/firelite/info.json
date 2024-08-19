@@ -1,0 +1,117 @@
+{
+    "title": "Fire-Lite MS-200EX Programming Cheat Sheet",
+    "sections": [
+        {
+            "title": "Entering Programming Mode",
+            "steps": [
+                "Press [Installer Code] + [PROGRAM]",
+                "Default Installer Code: 1234"
+            ]
+        },
+        {
+            "title": "Exiting Programming Mode",
+            "steps": [
+                "Press [EXIT] + [EXIT] to return to the main screen."
+            ]
+        },
+        {
+            "title": "Zone Programming",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [PROGRAM]",
+                "Navigate to Zone Programming: [3] + [Enter]",
+                "Enter Zone Number: [01] to [99]",
+                "Select Zone Type:",
+                "00: Not Used",
+                "01: Fire",
+                "02: Supervisory",
+                "03: Waterflow",
+                "04: Manual Pull Station",
+                "05: Heat Detector",
+                "06: Smoke Detector",
+                "07: CO Detector",
+                "Exit Zone Programming: Press [Exit] + [Exit]"
+            ]
+        },
+        {
+            "title": "Changing Installer Code",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [PROGRAM]",
+                "Navigate to Installer Code: [7] + [Enter]",
+                "Enter New Installer Code: [4-digit code] + [Enter]",
+                "Exit Programming Mode: Press [Exit] + [Exit]"
+            ]
+        },
+        {
+            "title": "Setting Date and Time",
+            "steps": [
+                "Press [PROGRAM] + [2]",
+                "Enter Date: [MMDDYY] + [Enter]",
+                "Enter Time: [HHMM] (24-hour format) + [Enter]",
+                "Exit: Press [Exit]"
+            ]
+        },
+        {
+            "title": "Configuring Communicator",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [PROGRAM]",
+                "Navigate to Communicator Setup: [4] + [Enter]",
+                "Enter Phone Numbers:",
+                "Primary: [Enter Number] + [Enter]",
+                "Secondary: [Enter Number] + [Enter]",
+                "Enter Account Number: [Enter Account Number] + [Enter]",
+                "Exit Programming Mode: Press [Exit] + [Exit]"
+            ]
+        },
+        {
+            "title": "Viewing Event Log",
+            "steps": [
+                "Press [PROGRAM] + [5]",
+                "Use [Up/Down] to scroll through events.",
+                "Exit: Press [Exit]"
+            ]
+        },
+        {
+            "title": "Resetting to Factory Defaults",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [PROGRAM]",
+                "Navigate to Reset Option: [8] + [Enter]",
+                "Confirm Reset: Press [Enter] + [Exit]"
+            ]
+        },
+        {
+            "title": "Viewing System Status",
+            "steps": [
+                "Press [PROGRAM] + [3]",
+                "Use [Up/Down] to scroll through statuses.",
+                "Exit: Press [Exit]"
+            ]
+        },
+        {
+            "title": "Trouble Conditions",
+            "steps": [
+                "Press [PROGRAM] + [2]",
+                "Common Codes:",
+                "1: AC Loss",
+                "2: Low Battery",
+                "3: Trouble (general)",
+                "4: Communication Failure",
+                "5: Ground Fault",
+                "6: Zone Trouble",
+                "7: Supervisory Trouble",
+                "8: NAC Trouble"
+            ]
+        },
+        {
+            "title": "NAC Programming",
+            "steps": [
+                "Enter Programming Mode: [Installer Code] + [PROGRAM]",
+                "Navigate to NAC Setup: [3] + [Enter]",
+                "Configure NACs:",
+                "1: Silenceable",
+                "2: Non-Silenceable",
+                "3: Waterflow",
+                "Exit NAC Setup: Press [Exit] + [Exit]"
+            ]
+        }
+    ]
+}
